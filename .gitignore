@@ -1,0 +1,21 @@
+# Credenciales y variables de entorno
+.env
+.env.*
+!.env.example
+
+# Documentos de la actividad (contienen la cadena de conexión)
+*.docx
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / sistema
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
